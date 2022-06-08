@@ -64,7 +64,6 @@ export default function App() {
         scrollTrigger: {
           trigger: ".img1",
           start: "top",
-          markers: true,
           scrub: 1,
         },
         duration: 2,
@@ -74,7 +73,6 @@ export default function App() {
         scrollTrigger: {
           trigger: ".img2",
           start: "top",
-          markers: true,
           scrub: 1,
         },
         duration: 2,
@@ -85,7 +83,6 @@ export default function App() {
         scrollTrigger: {
           trigger: ".img2",
           start: "top",
-          markers: true,
           scrub: 1,
           end: "70%",
         },
