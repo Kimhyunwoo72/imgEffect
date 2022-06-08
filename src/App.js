@@ -74,7 +74,7 @@ export default function App() {
       gsap.to(".imgg", {
         scrollTrigger: {
           trigger: ".img2",
-          start: "-10%",
+          start: "-30%",
           end: "50%",
           scrub: 1,
         },
