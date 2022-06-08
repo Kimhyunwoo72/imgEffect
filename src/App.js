@@ -54,7 +54,9 @@ export default function App() {
       gsap.to(".img1", {
         scrollTrigger: {
           trigger: ".img1",
-          start: "top",
+          markers: true,
+          start: "-40%",
+          end: "50%",
           scrub: 1,
         },
         duration: 2,
@@ -63,7 +65,9 @@ export default function App() {
       gsap.to(".img2", {
         scrollTrigger: {
           trigger: ".img1",
-          start: "top",
+          start: "-40%",
+          end: "30%",
+          markers: true,
           scrub: 1,
         },
         duration: 2,
@@ -72,7 +76,9 @@ export default function App() {
       gsap.to(".imgg", {
         scrollTrigger: {
           trigger: ".img2",
-          start: "top",
+          start: "-40%",
+          end: "50%",
+          markers: true,
           scrub: 1,
         },
         duration: 2,
@@ -82,9 +88,10 @@ export default function App() {
       gsap.to(".img3", {
         scrollTrigger: {
           trigger: ".img2",
-          start: "top",
+          start: "-40%",
+          markers: true,
           scrub: 1,
-          end: "70%",
+          end: "30%",
         },
         duration: 2,
         scale: 1,
