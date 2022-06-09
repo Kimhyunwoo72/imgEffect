@@ -65,7 +65,7 @@ export default function App() {
         scrollTrigger: {
           trigger: ".img1",
           start: "-40%",
-          end: "30%",
+          end: "60%",
           scrub: 1,
         },
         duration: 2,
